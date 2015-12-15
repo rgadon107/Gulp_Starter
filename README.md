@@ -65,6 +65,48 @@ gulp help
 
 The default task that will run when no specific option is provided is the `watch` task.
 
+### Tasks
+
+The following 19 `gulp` task files are included in the Gulp_Starter folder, and described below. 
+
+* `gulp build` - Launch individual tasks that are necessary for a build.
+
+* `gulp clean` - Clean out junk files after build.
+
+* `gulp default` - Default task to get executed when gulp is run without arguments.
+
+* `gulp dist-copy` - Copy all the files to the `$dist` folder.
+
+* `gulp dist-images` - Optimize images in place.
+
+* `gulp dist-styles` - Optimize stylesheets for distribution.
+
+* `gulp dist-wipe` - Totally wipe the contents of the distribution folder after doing a clean build.
+
+* `gulp dist` - Package everything up for distribution.
+
+* `gulp help` - Print a list of available gulp tasks.
+
+* `gulp images-optimize` - Copy and optimize images.
+
+* `gulp images` - Handle images.
+
+* `gulp scripts-lint` - Run the JavaScript files through a linter (jshint). 
+
+* `gulp scripts-uglify` - Minify JavaScript files.
+
+* `gulp scripts` - Handle JavaScript files.
+
+* `gulp styles-lint` - Run CSS through a linter (style lint). 
+
+* `gulp styles-postcss` - Process stylesheets with PostCSS.
+
+* `gulp styles-sass` - Compile sass source files and generate CSS.
+
+* `gulp styles` - Handle stylesheets.
+
+* `gulp watch` - Watch for file changes to relaunch necessary tasks.
+
 ## Special Notes
 
 ### style.css
@@ -107,46 +149,4 @@ function wpdc_stylesheet_uri( $stylesheet_uri, $stylesheet_dir_uri ) {
 To get the current version, type the command `npm -v` at your command-line.
 It is also a good idea to clear your npm's cache, as it might contain old versions of the packages we're trying to use. To clear your cache, type `npm cache clean` at your command-line.
 
-
-### Tasks
-
-The following 19 `gulp` task files are included in the Gulp_Starter folder, and described below. 
-
-* `gulp build` - Launch individual tasks that are necessary for a build.
-
-* `gulp clean` - Clean out junk files after build.
-
-* `gulp default` - Default task to get executed when gulp is run without arguments.
-
-* `gulp dist-copy` - Copy all the files to the `$dist` folder.
-
-* `gulp dist-images` - Optimize images in place.
-
-* `gulp dist-styles` - Optimize stylesheets for distribution.
-
-* `gulp dist-wipe` - Totally wipe the contents of the distribution folder after doing a clean build.
-
-* `gulp dist` - Package everything up for distribution.
-
-* `gulp help` - Print a list of available gulp tasks.
-
-* `gulp images-optimize` - Copy and optimize images.
-
-* `gulp images` - Handle images.
-
-* `gulp scripts-lint` - Run the JavaScript files through a linter (jshint). 
-
-* `gulp scripts-uglify` - Minify JavaScript files.
-
-* `gulp scripts` - Handle JavaScript files.
-
-* `gulp styles-lint` - Run CSS through a linter (style lint). 
-
-* `gulp styles-postcss` - Process stylesheets with PostCSS.
-
-* `gulp styles-sass` - Compile sass source files and generate CSS.
-
-* `gulp styles` - Handle stylesheets.
-
-* `gulp watch` - Watch for file changes to relaunch necessary tasks.
 
