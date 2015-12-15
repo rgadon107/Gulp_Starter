@@ -108,45 +108,45 @@ To get the current version, type the command `npm -v` at your command-line.
 It is also a good idea to clear your npm's cache, as it might contain old versions of the packages we're trying to use. To clear your cache, type `npm cache clean` at your command-line.
 
 
-## Tasks
+### Tasks
 
-The following `gulp` task files are included in the Gulp_Starter folder. 
+The following 19 `gulp` task files are included in the Gulp_Starter folder, and described below. 
 
-* build.js - Launch individual tasks that are necessary for a build.
+* `gulp build` - Launch individual tasks that are necessary for a build.
 
-* clean.js - Clean out junk files after build.
+* `gulp clean` - Clean out junk files after build.
 
-* default.js - Default task to get executed when gulp is run without arguments.
+* `gulp default` - Default task to get executed when gulp is run without arguments.
 
-* dist-copy.js - Copy all the files to the `$dist` folder.
+* `gulp dist-copy` - Copy all the files to the `$dist` folder.
 
-* dist-images.js - Optimize images in place.
+* `gulp dist-images` - Optimize images in place.
 
-* dist-styles.js - Optimize stylesheets for distribution.
+* `gulp dist-styles` - Optimize stylesheets for distribution.
 
-* dist-wipe.js - Totally wipe the contents of the distribution folder after doing a clean build.
+* gulp dist-wipe` - Totally wipe the contents of the distribution folder after doing a clean build.
 
-* dist.js - Package everything up for distribution.
+* `gulp dist` - Package everything up for distribution.
 
-* help.js - Print a list of available gulp tasks.
+* `gulp help` - Print a list of available gulp tasks.
 
-* images-optimize.js - Copy and optimize images.
+* `gulp images-optimize` - Copy and optimize images.
 
-* images.js - Handle images.
+* `gulp images` - Handle images.
 
-* scripts-lint.js - Run the JavaScript files through a linter (jshint). 
+* `gulp scripts-lint` - Run the JavaScript files through a linter (jshint). 
 
-* scripts-uglify.js - Minify JavaScript files.
+* `gulp scripts-uglify` - Minify JavaScript files.
 
-* scripts.js - Handle JavaScript files.
+* `gulp scripts` - Handle JavaScript files.
 
-* styles-lint.js - Run CSS through a linter (style lint). 
+* `gulp styles-lint` - Run CSS through a linter (style lint). 
 
-* styles-postcss.js - Process stylesheets with PostCSS.
+* `gulp styles-postcss` - Process stylesheets with PostCSS.
 
-* styles-sass.js - Compile sass source files and generate CSS.
+* `gulp styles-sass` - Compile sass source files and generate CSS.
 
-* styles.js - Handle stylesheets.
+* `gulp styles` - Handle stylesheets.
 
-* watch.js - Watch for file changes to relaunch necessary tasks.
+* `gulp watch` - Watch for file changes to relaunch necessary tasks.
 
