@@ -124,7 +124,7 @@ The following 19 `gulp` task files are included in the Gulp_Starter folder, and 
 
 * `gulp dist-styles` - Optimize stylesheets for distribution.
 
-* gulp dist-wipe` - Totally wipe the contents of the distribution folder after doing a clean build.
+* `gulp dist-wipe` - Totally wipe the contents of the distribution folder after doing a clean build.
 
 * `gulp dist` - Package everything up for distribution.
 
